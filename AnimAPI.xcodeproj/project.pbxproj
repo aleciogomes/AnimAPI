@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC04354B135522B40080FB6C /* AAExecutorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = EC043549135522B30080FB6C /* AAExecutorFactory.h */; };
+		EC04354C135522B40080FB6C /* AAExecutorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EC04354A135522B40080FB6C /* AAExecutorFactory.m */; };
+		ECB6631E134BD47600AA1158 /* AALayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB6631D134BD47500AA1158 /* AALayerDelegate.h */; };
+		ECB66334134D1B9000AA1158 /* AAForwardRotationExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB66332134D1B8E00AA1158 /* AAForwardRotationExecutor.h */; };
+		ECB66335134D1B9000AA1158 /* AAForwardRotationExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB66333134D1B8E00AA1158 /* AAForwardRotationExecutor.m */; };
+		ECB66339134D1C1A00AA1158 /* AABackwardRotationExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB66337134D1C1A00AA1158 /* AABackwardRotationExecutor.h */; };
+		ECB6633A134D1C1A00AA1158 /* AABackwardRotationExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB66338134D1C1A00AA1158 /* AABackwardRotationExecutor.m */; };
+		ECB6633D134D1E8F00AA1158 /* AAFlipXRotationExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB6633B134D1E8E00AA1158 /* AAFlipXRotationExecutor.h */; };
+		ECB6633E134D1E8F00AA1158 /* AAFlipXRotationExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6633C134D1E8E00AA1158 /* AAFlipXRotationExecutor.m */; };
+		ECB66341134D1F3A00AA1158 /* AAFlipYRotationExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB6633F134D1F3900AA1158 /* AAFlipYRotationExecutor.h */; };
+		ECB66342134D1F3A00AA1158 /* AAFlipYRotationExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB66340134D1F3A00AA1158 /* AAFlipYRotationExecutor.m */; };
+		ECB798E313440453002A9E1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB798E213440453002A9E1B /* Foundation.framework */; };
+		ECB798F8134404B2002A9E1B /* AAAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB798F6134404B2002A9E1B /* AAAnimation.h */; };
+		ECB798F9134404B2002A9E1B /* AAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB798F7134404B2002A9E1B /* AAAnimation.m */; };
+		ECB798FB134404BD002A9E1B /* AADefs.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB798FA134404BD002A9E1B /* AADefs.h */; };
+		ECB79903134404CA002A9E1B /* AAAnimationExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB798FC134404CA002A9E1B /* AAAnimationExecutor.h */; };
+		ECB79904134404CA002A9E1B /* AAAnimationExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB798FD134404CA002A9E1B /* AAAnimationExecutor.m */; };
+		ECB79905134404CA002A9E1B /* AAExecutorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB798FE134404CA002A9E1B /* AAExecutorProtocol.h */; };
+		ECB79906134404CA002A9E1B /* AARotationExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB798FF134404CA002A9E1B /* AARotationExecutor.h */; };
+		ECB79907134404CA002A9E1B /* AARotationExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB79900134404CA002A9E1B /* AARotationExecutor.m */; };
+		ECB79908134404CA002A9E1B /* AAScaleExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB79901134404CA002A9E1B /* AAScaleExecutor.h */; };
+		ECB79909134404CA002A9E1B /* AAScaleExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB79902134404CA002A9E1B /* AAScaleExecutor.m */; };
+		ECB7990C134404D4002A9E1B /* AAFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB7990A134404D4002A9E1B /* AAFileReader.h */; };
+		ECB7990D134404D4002A9E1B /* AAFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB7990B134404D4002A9E1B /* AAFileReader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC043549135522B30080FB6C /* AAExecutorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAExecutorFactory.h; sourceTree = "<group>"; };
+		EC04354A135522B40080FB6C /* AAExecutorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAExecutorFactory.m; sourceTree = "<group>"; };
+		ECB6631D134BD47500AA1158 /* AALayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALayerDelegate.h; sourceTree = "<group>"; };
+		ECB66332134D1B8E00AA1158 /* AAForwardRotationExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAForwardRotationExecutor.h; sourceTree = "<group>"; };
+		ECB66333134D1B8E00AA1158 /* AAForwardRotationExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAForwardRotationExecutor.m; sourceTree = "<group>"; };
+		ECB66337134D1C1A00AA1158 /* AABackwardRotationExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABackwardRotationExecutor.h; sourceTree = "<group>"; };
+		ECB66338134D1C1A00AA1158 /* AABackwardRotationExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AABackwardRotationExecutor.m; sourceTree = "<group>"; };
+		ECB6633B134D1E8E00AA1158 /* AAFlipXRotationExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAFlipXRotationExecutor.h; sourceTree = "<group>"; };
+		ECB6633C134D1E8E00AA1158 /* AAFlipXRotationExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAFlipXRotationExecutor.m; sourceTree = "<group>"; };
+		ECB6633F134D1F3900AA1158 /* AAFlipYRotationExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAFlipYRotationExecutor.h; sourceTree = "<group>"; };
+		ECB66340134D1F3A00AA1158 /* AAFlipYRotationExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAFlipYRotationExecutor.m; sourceTree = "<group>"; };
+		ECB798DF13440453002A9E1B /* libAnimAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAnimAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB798E213440453002A9E1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECB798E613440453002A9E1B /* AnimAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimAPI-Prefix.pch"; sourceTree = "<group>"; };
+		ECB798F6134404B2002A9E1B /* AAAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAnimation.h; sourceTree = "<group>"; };
+		ECB798F7134404B2002A9E1B /* AAAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAnimation.m; sourceTree = "<group>"; };
+		ECB798FA134404BD002A9E1B /* AADefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AADefs.h; sourceTree = "<group>"; };
+		ECB798FC134404CA002A9E1B /* AAAnimationExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAnimationExecutor.h; sourceTree = "<group>"; };
+		ECB798FD134404CA002A9E1B /* AAAnimationExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAnimationExecutor.m; sourceTree = "<group>"; };
+		ECB798FE134404CA002A9E1B /* AAExecutorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAExecutorProtocol.h; sourceTree = "<group>"; };
+		ECB798FF134404CA002A9E1B /* AARotationExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AARotationExecutor.h; sourceTree = "<group>"; };
+		ECB79900134404CA002A9E1B /* AARotationExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AARotationExecutor.m; sourceTree = "<group>"; };
+		ECB79901134404CA002A9E1B /* AAScaleExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAScaleExecutor.h; sourceTree = "<group>"; };
+		ECB79902134404CA002A9E1B /* AAScaleExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAScaleExecutor.m; sourceTree = "<group>"; };
+		ECB7990A134404D4002A9E1B /* AAFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAFileReader.h; sourceTree = "<group>"; };
+		ECB7990B134404D4002A9E1B /* AAFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAFileReader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB798DC13440453002A9E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB798E313440453002A9E1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB6631C134BD44800AA1158 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6631D134BD47500AA1158 /* AALayerDelegate.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		ECB66336134D1BEF00AA1158 /* Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				ECB798FF134404CA002A9E1B /* AARotationExecutor.h */,
+				ECB79900134404CA002A9E1B /* AARotationExecutor.m */,
+				ECB66332134D1B8E00AA1158 /* AAForwardRotationExecutor.h */,
+				ECB66333134D1B8E00AA1158 /* AAForwardRotationExecutor.m */,
+				ECB66337134D1C1A00AA1158 /* AABackwardRotationExecutor.h */,
+				ECB66338134D1C1A00AA1158 /* AABackwardRotationExecutor.m */,
+				ECB6633B134D1E8E00AA1158 /* AAFlipXRotationExecutor.h */,
+				ECB6633C134D1E8E00AA1158 /* AAFlipXRotationExecutor.m */,
+				ECB6633F134D1F3900AA1158 /* AAFlipYRotationExecutor.h */,
+				ECB66340134D1F3A00AA1158 /* AAFlipYRotationExecutor.m */,
+			);
+			name = Rotation;
+			sourceTree = "<group>";
+		};
+		ECB798D413440453002A9E1B = {
+			isa = PBXGroup;
+			children = (
+				ECB798E413440453002A9E1B /* AnimAPI */,
+				ECB798E113440453002A9E1B /* Frameworks */,
+				ECB798E013440453002A9E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB798E013440453002A9E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB798DF13440453002A9E1B /* libAnimAPI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB798E113440453002A9E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB798E213440453002A9E1B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB798E413440453002A9E1B /* AnimAPI */ = {
+			isa = PBXGroup;
+			children = (
+				ECB798F413440486002A9E1B /* Core */,
+				ECB798EC13440460002A9E1B /* Executors */,
+				ECB798E513440453002A9E1B /* Supporting Files */,
+			);
+			path = AnimAPI;
+			sourceTree = "<group>";
+		};
+		ECB798E513440453002A9E1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB798E613440453002A9E1B /* AnimAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB798EC13440460002A9E1B /* Executors */ = {
+			isa = PBXGroup;
+			children = (
+				ECB66336134D1BEF00AA1158 /* Rotation */,
+				ECB798FC134404CA002A9E1B /* AAAnimationExecutor.h */,
+				ECB798FD134404CA002A9E1B /* AAAnimationExecutor.m */,
+				ECB798FE134404CA002A9E1B /* AAExecutorProtocol.h */,
+				ECB79901134404CA002A9E1B /* AAScaleExecutor.h */,
+				ECB79902134404CA002A9E1B /* AAScaleExecutor.m */,
+				EC043549135522B30080FB6C /* AAExecutorFactory.h */,
+				EC04354A135522B40080FB6C /* AAExecutorFactory.m */,
+			);
+			name = Executors;
+			sourceTree = "<group>";
+		};
+		ECB798F313440482002A9E1B /* File Support */ = {
+			isa = PBXGroup;
+			children = (
+				ECB7990A134404D4002A9E1B /* AAFileReader.h */,
+				ECB7990B134404D4002A9E1B /* AAFileReader.m */,
+			);
+			name = "File Support";
+			sourceTree = "<group>";
+		};
+		ECB798F413440486002A9E1B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6631C134BD44800AA1158 /* Common */,
+				ECB798F51344048E002A9E1B /* Definitinos */,
+				ECB798F313440482002A9E1B /* File Support */,
+				ECB798F6134404B2002A9E1B /* AAAnimation.h */,
+				ECB798F7134404B2002A9E1B /* AAAnimation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		ECB798F51344048E002A9E1B /* Definitinos */ = {
+			isa = PBXGroup;
+			children = (
+				ECB798FA134404BD002A9E1B /* AADefs.h */,
+			);
+			name = Definitinos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ECB798DD13440453002A9E1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB798F8134404B2002A9E1B /* AAAnimation.h in Headers */,
+				ECB798FB134404BD002A9E1B /* AADefs.h in Headers */,
+				ECB79903134404CA002A9E1B /* AAAnimationExecutor.h in Headers */,
+				ECB79905134404CA002A9E1B /* AAExecutorProtocol.h in Headers */,
+				ECB79906134404CA002A9E1B /* AARotationExecutor.h in Headers */,
+				ECB79908134404CA002A9E1B /* AAScaleExecutor.h in Headers */,
+				ECB7990C134404D4002A9E1B /* AAFileReader.h in Headers */,
+				ECB6631E134BD47600AA1158 /* AALayerDelegate.h in Headers */,
+				ECB66334134D1B9000AA1158 /* AAForwardRotationExecutor.h in Headers */,
+				ECB66339134D1C1A00AA1158 /* AABackwardRotationExecutor.h in Headers */,
+				ECB6633D134D1E8F00AA1158 /* AAFlipXRotationExecutor.h in Headers */,
+				ECB66341134D1F3A00AA1158 /* AAFlipYRotationExecutor.h in Headers */,
+				EC04354B135522B40080FB6C /* AAExecutorFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ECB798DE13440453002A9E1B /* AnimAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB798E913440453002A9E1B /* Build configuration list for PBXNativeTarget "AnimAPI" */;
+			buildPhases = (
+				ECB798DB13440453002A9E1B /* Sources */,
+				ECB798DC13440453002A9E1B /* Frameworks */,
+				ECB798DD13440453002A9E1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimAPI;
+			productName = AnimAPI;
+			productReference = ECB798DF13440453002A9E1B /* libAnimAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB798D613440453002A9E1B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ECB798D913440453002A9E1B /* Build configuration list for PBXProject "AnimAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECB798D413440453002A9E1B;
+			productRefGroup = ECB798E013440453002A9E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB798DE13440453002A9E1B /* AnimAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB798DB13440453002A9E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB798F9134404B2002A9E1B /* AAAnimation.m in Sources */,
+				ECB79904134404CA002A9E1B /* AAAnimationExecutor.m in Sources */,
+				ECB79907134404CA002A9E1B /* AARotationExecutor.m in Sources */,
+				ECB79909134404CA002A9E1B /* AAScaleExecutor.m in Sources */,
+				ECB7990D134404D4002A9E1B /* AAFileReader.m in Sources */,
+				ECB66335134D1B9000AA1158 /* AAForwardRotationExecutor.m in Sources */,
+				ECB6633A134D1C1A00AA1158 /* AABackwardRotationExecutor.m in Sources */,
+				ECB6633E134D1E8F00AA1158 /* AAFlipXRotationExecutor.m in Sources */,
+				ECB66342134D1F3A00AA1158 /* AAFlipYRotationExecutor.m in Sources */,
+				EC04354C135522B40080FB6C /* AAExecutorFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECB798E713440453002A9E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECB798E813440453002A9E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		ECB798EA13440453002A9E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/AnimAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimAPI/AnimAPI-Prefix.pch";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		ECB798EB13440453002A9E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/AnimAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimAPI/AnimAPI-Prefix.pch";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB798D913440453002A9E1B /* Build configuration list for PBXProject "AnimAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB798E713440453002A9E1B /* Debug */,
+				ECB798E813440453002A9E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB798E913440453002A9E1B /* Build configuration list for PBXNativeTarget "AnimAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB798EA13440453002A9E1B /* Debug */,
+				ECB798EB13440453002A9E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB798D613440453002A9E1B /* Project object */;
+}
